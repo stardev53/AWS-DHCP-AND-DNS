@@ -7,5 +7,5 @@
 
 ➤ Go to subnets and create one in the range of IP's of your Deafult VPC.
   
-  ● Choose the default VPC ↓
+      ● Choose the default VPC ↓
 ![Screenshot_1](https://user-images.githubusercontent.com/85712710/146819470-c684ffa7-f68b-4839-bf08-961510d603bd.png)
