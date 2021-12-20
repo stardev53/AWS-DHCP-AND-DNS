@@ -13,3 +13,14 @@
       ● Subnet Settings  ↓
       
 ![Screenshot_2](https://user-images.githubusercontent.com/85712710/146820177-6f51651b-70d2-4445-8c2d-1702b0ecbf8d.png)
+
+➤ Next go to EC2 (Virtual Servers)
+          
+           ● Launch Instance;
+           ● I Will be using Amazon Linux (Red Hat Variant) as a Server
+           ● t2.micro should be enough
+➤ Next step should look like this image ↓ , carefull to choose the default in the same zone where you create your subnet.
+![Screenshot_3](https://user-images.githubusercontent.com/85712710/146825227-be52e9de-7d51-46c6-841d-3755d19df38e.png)
+       
+  
+➤ Choose Zone and Add Device
