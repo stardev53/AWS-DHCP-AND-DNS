@@ -45,11 +45,18 @@
           ● I Will be using Ubuntu 20.04 LTS (Debian Variant) as a Client
           ● t2.micro should be enough
           ● Subnet Above ↓ , follow it and come back
+          ● Size of the disk i will use 30, because its the free tier limit.
+          ● Advance to security groups, and choose the security group that you have created early for the server.
+          ● then review and launch option, and use the same key you use in the server.
+          ● Name it as Ubuntu-Client
+          
           
  ➤ Client 
 
 ![Screenshot_7](https://user-images.githubusercontent.com/85712710/146827104-2577f90a-d010-4f68-9e21-3342b4b1fadc.png)
 ![Screenshot_8](https://user-images.githubusercontent.com/85712710/146827273-5a1c61b9-6fcd-4df8-9285-187852af01ce.png)
+
+
 
 
  
