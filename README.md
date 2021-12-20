@@ -45,18 +45,44 @@
           ● I Will be using Ubuntu 20.04 LTS (Debian Variant) as a Client
           ● t2.micro should be enough
           ● Subnet Above ↓ , follow it and come back
-          ● Size of the disk i will use 30, because its the free tier limit.
-          ● Advance to security groups, and choose the security group that you have created early for the server.
-          ● then review and launch option, and use the same key you use in the server.
+          ● Advance to security groups, choose the same you used in the server.
+          ● then review and launch option, and use the same key you used in the server.
           ● Name it as Ubuntu-Client
-          
-          
- ➤ Client 
+ ➤ Client
 
 ![Screenshot_7](https://user-images.githubusercontent.com/85712710/146827104-2577f90a-d010-4f68-9e21-3342b4b1fadc.png)
 ![Screenshot_8](https://user-images.githubusercontent.com/85712710/146827273-5a1c61b9-6fcd-4df8-9285-187852af01ce.png)
 
-
+ ➤ Elastic IP
+ 
+         ● Select the EC2-Server
+         ● Click Networking
+         ● Scroll down and look for the interface ID of the primary network interface.
+         ● Copy it
+         ● Go to Elastic IP
+         ● Create One
+         ● Select the elastic ip and click on actions
+         ● Click on Associate
+         ● Choose Network Intercafes and Paste the Primary network interface ID there
+         ● Now your server have a public IP.
+ 
+➤ On AWS select the server
+       
+         ● Actions
+         ● Select neetworking
+         ● change sourcee/destination
+         ● click on stop
+         ● Save
+ 
+ ➤ Termius 
+ 
+         ● Connect to your server
+         ● sudo hostnamectl set-hostname luxserver.web.pt (To change the hostnamee of your server)
+         ● nano key.pem (copy whats inside the key you have create and paste on this documment(
+         ● chmod 600 key.pem (to give permissions to the key)
+         ● ssh -i key.pem ubuntu@Private_IP_Client (to connect to client)
+         ● Duplicate Versions to have both server and client open.
+         
 
 
  
