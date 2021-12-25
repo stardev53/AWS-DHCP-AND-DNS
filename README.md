@@ -98,3 +98,13 @@
          }
       ● systemctl status isc-dhcp-server    
       ● systemctl enable –now isc-dhcp-server
+      ● apt install build-essential
+      ● cd ~ 
+      ● git clone https://github.com/saravana815/dhtest.git
+      ● cd dhtest/
+      ● make
+      
+      ● To check if the DHCP is working, you need to duplicate ubuntu-client session.
+      ● ./dhtest -m 00:00:11:22:33:44 -i eth0
+      ● In the duplicated session:
+           > tcpdump -i eth0 -nv port 67
